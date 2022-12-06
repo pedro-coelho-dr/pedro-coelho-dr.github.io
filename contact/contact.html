@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>contact</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">contact</h1>
+    <p id="description">about you</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">
+          name <input id="name" name="name" type="text" placeholder="your name" required/>
+        </label>
+        <label for="email" id="email-label">
+          email <input id="email" name="email" type="email" placeholder="your email" required/>
+        </label>
+        <label for="number" id="number-label">
+          number <input id="number" name="number" type="number" min="13" max="120" placeholder="your number"/>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">choose
+          <select id="dropdown" name="dropdown">
+            <option value="">(select)</option>
+            <option value="1">option one</option>
+            <option value="2">option two</option>
+            </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="dev">red
+          <input id="red" type="radio" name="red-blue" class="inline" value="0">
+        </label>
+        <label for="blue">blue
+          <input id="blue" type="radio" name="red-blue" class="inline" value="1">
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="art">
+          <input id="art" type="checkbox" name="art" class="inline" value="1">
+        art  
+        </label>
+        <label for="tech">
+          <input id="tech" type="checkbox" name="tech" class="inline" value="2">
+        tech  
+        </label>
+        <label for="life">
+          <input id="life" type="checkbox" name="life" class="inline" value="3">
+        life  
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="message">message
+          <textarea id="message" name="message" rows="10" cols="30" placeholder="message">
+          </textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit" value="submit"/>
+      </fieldset>
+    </form>
+  </body>
+  </html>
