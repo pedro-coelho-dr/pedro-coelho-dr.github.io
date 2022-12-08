@@ -4,14 +4,14 @@ body {
 }
 
 .coriscodev{
-    font-size:65px;
+    font-size:60px;
     margin:0%;
     line-height:110px;
     height:110px
 
 }
     .corisco {
-    font-size:150px;
+    font-size:120px;
     }
 
 .menu {
@@ -22,7 +22,7 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 20px;
+    padding: 15px 15px;
     text-decoration: none;
     font-size: 30px;
   }
