@@ -40,7 +40,7 @@ body {
     font-size: 3vw;
   }
 
-input,textarea {
+.areas {
   background-color:#df575e;
   color:rgb(222, 215, 22);
   font-family:Helvetica
