@@ -4,14 +4,14 @@ body {
 }
 
 .coriscodev{
-    font-size:8vw;
+    font-size:5vw;
     margin:0%;
-    line-height:15vw;
-    height:15vw
+    line-height:12vw;
+    height:12vw
 
 }
     .corisco {
-    font-size:20vw;
+    font-size:15vw;
     }
 
 .menu {
@@ -22,9 +22,9 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px 15px;
+    padding: 2vw 1vw;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .menu a:hover {
     color: rgb(222, 215, 22);
