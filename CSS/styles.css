@@ -20,7 +20,7 @@ body {
   }
   .menu a {
     float: right;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 2vw 1vw;
     text-decoration: none;
@@ -31,5 +31,17 @@ body {
   }
   
   .menu a.active {
-    color: rgb(222, 215, 22);;
+    color: rgb(222, 215, 22);
   }
+
+  .quickmsg{
+    display:inline-block;
+    color: #ffffff;
+    font-size: 3vw;
+  }
+
+input,textarea {
+  background-color:#df575e;
+  color:rgb(222, 215, 22);
+  font-family:Helvetica
+}
