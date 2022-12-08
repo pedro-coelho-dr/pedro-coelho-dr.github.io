@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(201, 12, 12);
+    font-family : helvetica
+}
+
+.coriscodev{
+    font-size:65px;
+    margin:0%;
+    line-height:110px;
+    height:110px
+
+}
+    .corisco {
+    font-size:150px;
+    }
+
+.menu {
+    overflow: hidden;
+
+  }
+  .menu a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .menu a:hover {
+    color: rgb(222, 215, 22);
+  }
+  
+  .menu a.active {
+    color: rgb(222, 215, 22);;
+  }
