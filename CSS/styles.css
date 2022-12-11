@@ -4,27 +4,32 @@ body {
 }
 
 .coriscodev{
-    font-size:5vw;
-    margin:0%;
-    line-height:12vw;
-    height:12vw
+    font-size:4rem;
+    margin: -30px 0px
 
 }
     .corisco {
-    font-size:15vw;
+    font-size:10rem;
     }
 
 .menu {
     overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 650px;
+/*     background-color:black; */
+    margin: 15px -10px;
+    padding: 0;
+    border: 0;
 
   }
   .menu a {
-    float: right;
+    float: left;
     color: #ffffff;
     text-align: center;
-    padding: 2vw 1vw;
+    padding: 0px 1.5rem;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 2rem;
   }
   .menu a:hover {
     color: rgb(222, 215, 22);
@@ -37,13 +42,13 @@ body {
 .quickmsg{
   display:inline-block;
   color: #ffffff;
-  font-size: 3vw;
+  font-size: 1.5rem;
 }
 
 input[type="email"],
 input[type="text"] {
-  width:50vw;
-  height:4vw;
+  width:300px;
+  height:30px;
 }
 
 .areas:focus{
@@ -56,7 +61,7 @@ input[type="text"] {
   background-color:#df575e;
   color:rgb(0, 0, 0);
   font-family:Helvetica;
-  font-size: 2.5vw;
+  font-size: 1rem;
   display: block;
   border : 0;
 }
@@ -65,13 +70,14 @@ input[type="text"] {
   background-color: rgb(255, 255, 255);
   color: black;
   display: block;
-  width: 10vw;
-  font-size: 3vw;
-  height: 5vw;
+  width:75px;
+  font-size: 1.2em;
+  height: 40px;
 }
 
 .submit:hover{
   background-color: rgb(222, 215, 22);
+  cursor:pointer
 }
 
 fieldset {
