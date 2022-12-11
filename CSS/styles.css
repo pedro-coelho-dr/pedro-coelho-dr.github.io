@@ -1,6 +1,7 @@
 body {
     background-color: rgb(201, 12, 12);
-    font-family : helvetica
+    font-family : helvetica;
+    
 }
 
 .coriscodev{
@@ -83,3 +84,4 @@ input[type="text"] {
 fieldset {
    border:none; 
 }
+

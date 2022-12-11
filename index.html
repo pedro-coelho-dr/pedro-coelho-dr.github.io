@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="CSS\styles.css"/>
   </head>
   <body>
-    <h1 id="coriscodev" class="coriscodev"><span class="corisco">corisco</span>.dev</h1>
-    <div class="menu">
-      <a href="">learning</a>
-      <a href="">film</a>
-      <a href="">text</a>
-      <a href="">about</a>
-      <a class ="active" href="">contact</a>
-    </div>
-      <main>
+    <header>
+      <h1 id="coriscodev" class="coriscodev"><span class="corisco">corisco</span>.dev</h1>
+      <div class="menu">
+        <a href="">learning</a>
+        <a href="">film</a>
+        <a href="">text</a>
+        <a href="">about</a>
+        <a class ="active" href="">contact</a>
+      </div>
+    </header>
+    <main>
       <form>
         <fieldset>
           <label for="name" id="name-label" class="quickmsg">
@@ -31,13 +33,27 @@
         </fieldset>
         <fieldset>
           <label for="message" class="quickmsg">message<br>
-            <textarea id="message" name="message" class="areas" cols="50" rows="10"></textarea>
+            <textarea id="message" name="message" class="areas" cols="50" rows="10" required></textarea>
           </label>
         </fieldset>
         <fieldset>
           <input id="submit" type="submit" value="send" class="submit"/>
         </fieldset>
       </form>
-    </main>
+     </main>
+     <footer>
+
+    <!--   <div class="contacts">
+        <div class="discord">
+          <img alt="discord" src="images\discord-mark-blue.png">
+        </div>
+        <div class="github">
+          <img alt="github" src="images\GitHub_Logo.png">
+        </div>
+        <div class="linkedin">
+          <img alt="linkedin" src="images\LI2.png">
+        </div>
+      </div> -->
+     </footer>
   </body>
-  </html>
+</html>
